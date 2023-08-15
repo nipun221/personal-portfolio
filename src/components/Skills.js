@@ -9,6 +9,7 @@ import prisma from "../assets/img/icons8-prisma-orm.svg";
 import mongodb from "../assets/img/icons8-mongodb.svg";
 import cpp from "../assets/img/icons8-c.svg";
 import flutter from "../assets/img/icons8-flutter.svg";
+import git from "../assets/img/icons8-git.svg";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -41,8 +42,8 @@ export const Skills = () => {
             <div className="row">
                 <div className="col-12">
                     <div className="skill-bx wow zoomIn">
-                        <h2>Skills</h2>
-                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
+                        <h2>Tech stack</h2>
+                        <p></p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
                               <img src={html5} alt='' />
@@ -87,6 +88,10 @@ export const Skills = () => {
                             <div className="item">
                               <img src={flutter} alt='' />
                               <h5>Flutter</h5>
+                            </div>
+                            <div className="item">
+                              <img src={git} alt='' />
+                              <h5>Version Control</h5>
                             </div>
                         </Carousel>
                     </div>
