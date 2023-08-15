@@ -1,12 +1,12 @@
-import meter1 from "../assets/img/meter1.svg";
-import meter2 from "../assets/img/meter2.svg";
-import meter3 from "../assets/img/meter3.svg";
+import html5 from "../assets/img/icons8-html5.svg";
+import css from "../assets/img/icons8-css.svg";
+import js from "../assets/img/icons8-js.svg";
+import react from "../assets/img/icons8-react-native.svg";
+import tailwind from "../assets/img/icons8-tailwind-css.svg";
+
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-
-
 
 export const Skills = () => {
   const responsive = {
@@ -39,24 +39,24 @@ export const Skills = () => {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                              <img src={meter1} alt='' />
-                              <h5>Web Development</h5>
+                              <img src={html5} alt='' />
+                              <h5>HTML</h5>
                             </div>
                             <div className="item">
-                              <img src={meter2} alt='' />
-                              <h5>Brand Identity</h5>
+                              <img src={css} alt='' />
+                              <h5>CSS</h5>
                             </div>
                             <div className="item">
-                              <img src={meter3} alt='' />
-                              <h5>Logo Design</h5>
+                              <img src={js} alt='' />
+                              <h5>Javascript</h5>
                             </div>
                             <div className="item">
-                              <img src={meter1} alt='' />
-                              <h5>Web Development</h5>
+                              <img src={react} alt='' />
+                              <h5>React</h5>
                             </div>
                             <div className="item">
-                              <FontAwesomeIcon icon="fa-brands fa-html5" style={{color: "#ff8000",}} />
-                              <h5>Web Development</h5>
+                              <img src={tailwind} alt='' />
+                              <h5>Tailwind CSS</h5>
                             </div>
                         </Carousel>
                     </div>
