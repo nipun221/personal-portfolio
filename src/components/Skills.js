@@ -4,6 +4,9 @@ import meter3 from "../assets/img/meter3.svg";
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import colorSharp from "../assets/img/color-sharp.png"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+
 
 export const Skills = () => {
   const responsive = {
@@ -36,20 +39,24 @@ export const Skills = () => {
                         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.<br></br> Lorem Ipsum has been the industry's standard dummy text.</p>
                         <Carousel responsive={responsive} infinite={true} className="owl-carousel owl-theme skill-slider">
                             <div className="item">
-                                <img src={meter1} alt='' />
-                                <h5>Web Development</h5>
+                              <img src={meter1} alt='' />
+                              <h5>Web Development</h5>
                             </div>
                             <div className="item">
-                                <img src={meter2} alt='' />
-                                <h5>Brand Identity</h5>
+                              <img src={meter2} alt='' />
+                              <h5>Brand Identity</h5>
                             </div>
                             <div className="item">
-                                <img src={meter3} alt='' />
-                                <h5>Logo Design</h5>
+                              <img src={meter3} alt='' />
+                              <h5>Logo Design</h5>
                             </div>
                             <div className="item">
-                                <img src={meter1} alt='' />
-                                <h5>Web Development</h5>
+                              <img src={meter1} alt='' />
+                              <h5>Web Development</h5>
+                            </div>
+                            <div className="item">
+                              <FontAwesomeIcon icon="fa-brands fa-html5" style={{color: "#ff8000",}} />
+                              <h5>Web Development</h5>
                             </div>
                         </Carousel>
                     </div>
