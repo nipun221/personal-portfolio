@@ -3,6 +3,12 @@ import css from "../assets/img/icons8-css.svg";
 import js from "../assets/img/icons8-js.svg";
 import react from "../assets/img/icons8-react-native.svg";
 import tailwind from "../assets/img/icons8-tailwind-css.svg";
+import node from "../assets/img/icons8-nodejs.svg";
+import ts from "../assets/img/icons8-typescript.svg";
+import prisma from "../assets/img/icons8-prisma-orm.svg";
+import mongodb from "../assets/img/icons8-mongodb.svg";
+import cpp from "../assets/img/icons8-c.svg";
+import flutter from "../assets/img/icons8-flutter.svg";
 
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
@@ -57,6 +63,30 @@ export const Skills = () => {
                             <div className="item">
                               <img src={tailwind} alt='' />
                               <h5>Tailwind CSS</h5>
+                            </div>
+                            <div className="item">
+                              <img src={node} alt='' />
+                              <h5>Node js</h5>
+                            </div>
+                            <div className="item">
+                              <img src={ts} alt='' />
+                              <h5>Typescript</h5>
+                            </div>
+                            <div className="item">
+                              <img src={prisma} alt='' />
+                              <h5>Prisma</h5>
+                            </div>
+                            <div className="item">
+                              <img src={mongodb} alt='' />
+                              <h5>MongoDB</h5>
+                            </div>
+                            <div className="item">
+                              <img src={cpp} alt='' />
+                              <h5>C++</h5>
+                            </div>
+                            <div className="item">
+                              <img src={flutter} alt='' />
+                              <h5>Flutter</h5>
                             </div>
                         </Carousel>
                     </div>
