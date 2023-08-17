@@ -11,6 +11,8 @@ export const Projects = () => {
       title: "OmniAI",
       description: "This AI model is powered by GPT-3.5 and Replicate",
       imgUrl: omni,
+      siteUrl: "https://ai-saas-tan.vercel.app/",
+      gitUrl: "https://github.com/nipun221/ai-saas/",
     },
   ];
 
@@ -30,6 +32,24 @@ export const Projects = () => {
                           key={index}
                           {...project}
                           />
+                      )
+                    })
+                  }
+                  {
+                    projects.map((route)=> {
+                      return (
+                        <div className="linka">
+                          <a
+                              href={route.siteUrl}
+                            >
+                              live site
+                          </a>
+                          <a
+                            href={route.gitUrl}
+                          >
+                            repository
+                          </a>
+                        </div>
                       )
                     })
                   }
