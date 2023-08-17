@@ -1,6 +1,7 @@
 import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import omni from "../assets/img/OmniAI.png";
+import artificer from "../assets/img/artificer.png";
 import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 
@@ -14,6 +15,13 @@ export const Projects = () => {
       siteUrl: "https://ai-saas-tan.vercel.app/",
       gitUrl: "https://github.com/nipun221/ai-saas/",
     },
+    {
+      title: "Artificer",
+      description: "This is a plateform to share your piece of work.",
+      imgUrl: artificer,
+      siteUrl: "https://grafbase-pro.vercel.app/",
+      gitUrl: "https://github.com/nipun221/grafbase_pro",
+    }
   ];
 
   return (
