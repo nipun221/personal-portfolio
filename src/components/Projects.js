@@ -42,24 +42,6 @@ export const Projects = () => {
                       )
                     })
                   }
-                  {
-                    projects.map((route)=> {
-                      return (
-                        <div className="linka">
-                          <a
-                              href={route.siteUrl}
-                            >
-                              live site
-                          </a>
-                          <a
-                            href={route.gitUrl}
-                          >
-                            repository
-                          </a>
-                        </div>
-                      )
-                    })
-                  }
                 </Row>
               </div>
           </Col>
