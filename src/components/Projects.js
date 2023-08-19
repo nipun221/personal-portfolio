@@ -2,7 +2,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import omni from "../assets/img/OmniAI.png";
 import artificer from "../assets/img/artificer.png";
-import colorSharp2 from "../assets/img/color-sharp2.png";
 import 'animate.css';
 
 export const Projects = () => {
@@ -66,7 +65,6 @@ export const Projects = () => {
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2} alt=''></img>
     </section>
   )
 }
