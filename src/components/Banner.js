@@ -5,6 +5,7 @@ import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
+
 export const Banner = () => {
   const [loopNum, setLoopNum] = useState(0);
   const [isDeleting, setIsDeleting] = useState(false);
@@ -56,7 +57,7 @@ export const Banner = () => {
               {({ isVisible }) =>
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`Hi! I'm Nipun`}</h1>
-                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                  <p>A skilled Fullstack Developer specializing in React, Next.js, and Node.js, with a strong command of MongoDB and Prisma for efficient data management. Proficient in the integration of RESTful APIs, creating seamless connections between diverse systems. Committed to clean code and solid software architecture, ensuring scalability and reliability. With a passion for innovation, they transform ideas into elegant web applications, whether starting from scratch or optimizing existing projects. Their dedication to crafting high-quality, user-centric web solutions is a testament to their expertise in modern web development.</p>
                   <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
               </div>}
             </TrackVisibility>
