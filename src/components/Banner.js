@@ -1,7 +1,6 @@
 import { useState, useEffect } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import headerImg from "../assets/img/nipun-header.png";
-import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
 import TrackVisibility from 'react-on-screen';
 
@@ -58,7 +57,21 @@ export const Banner = () => {
               <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
                 <h1>{`Hi! I'm Nipun`}</h1>
                   <p>A skilled Fullstack Developer specializing in React, Next.js, and Node.js, with a strong command of MongoDB and Prisma for efficient data management. Proficient in the integration of RESTful APIs, creating seamless connections between diverse systems. Committed to clean code and solid software architecture, ensuring scalability and reliability. With a passion for innovation, they transform ideas into elegant web applications, whether starting from scratch or optimizing existing projects. Their dedication to crafting high-quality, user-centric web solutions is a testament to their expertise in modern web development.</p>
-                  <button onClick={() => console.log('connect')}>Let’s Connect <ArrowRightCircle size={25} /></button>
+                  
+                  <a href="https://github.com/nipun221" Style="text-decoration: none">
+                    <button class="btn" type="button">
+                      <strong>Github Profile</strong>
+                      <div id="container-stars">
+                        <div id="stars"></div>
+                      </div>
+
+                      <div id="glow">
+                        <div class="circle"></div>
+                        <div class="circle"></div>
+                      </div>
+                    </button>
+                  </a>
+
               </div>}
             </TrackVisibility>
           </Col>
