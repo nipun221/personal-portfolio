@@ -1,5 +1,4 @@
-In the /personal-portfolio, you can run:
-
+###  `Personal Portfolio`
 ### `npm start`
 
 Runs the app in the development mode.\
