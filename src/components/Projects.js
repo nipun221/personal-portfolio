@@ -2,6 +2,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import { ProjectCard } from "./ProjectCard";
 import omni from "../assets/img/OmniAI.png";
 import artificer from "../assets/img/artificer.png";
+import nike from "../assets/img/nike-project.png";
 import 'animate.css';
 
 export const Projects = () => {
@@ -20,6 +21,13 @@ export const Projects = () => {
       imgUrl: artificer,
       siteUrl: "https://grafbase-pro.vercel.app/",
       gitUrl: "https://github.com/nipun221/grafbase_pro",
+    },
+    {
+      title: "Nike Landing Page",
+      description: "A landing page for nike reselling shoes.",
+      imgUrl: nike,
+      siteUrl: "https://nike-nipun221.vercel.app/",
+      gitUrl: "https://github.com/nipun221/nike",
     }
   ];
 
